@@ -1,0 +1,10 @@
+body{
+	background: #26a69a;
+}
+
+img.indexLogo {
+	height: 250px;
+	width: auto;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}

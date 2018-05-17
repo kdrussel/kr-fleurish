@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Fleurish</title>
+
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="materialize.min.css"  media="screen,projection"/>
+	<!-- custom css -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+	<!-- navbar -->
+	<div class="navbar-fixed">
+	  <nav class="teal lighten-1">
+	    <div class="container">
+	      <div class="nav-wrapper">
+	        <a href="home.html" class="brand-logo"><i>fleurish</i></a>
+	        <a href="#" data-activates="mobile-nav" class="button-collapse">
+	          <i class="material-icons">menu</i>
+	        </a>
+	        <ul class="right hide-on-med-and-down">
+	          <li>
+	            <a href="home.html">Home</a>
+	          </li>
+	          <li>
+	            <a href="search.html">Search</a>
+	          </li>
+	          <li>
+	            <a href="create.html">Create</a>
+	          </li>
+	          <li>
+	            <a href="about.html">About</a>
+	          </li>
+	          <li>
+	            <a href="contact.html">Contact</a>
+	          </li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	</div>
+	<!-- side navbar -->
+	<ul class="side-nav" id="mobile-nav">
+	  <li>
+	    <a href="home.html">Home</a>
+	  </li>
+	  <li>
+	    <a href="search.html">Search</a>
+	  </li>
+	  <li>
+	    <a href="create.html">Create</a>
+	  </li>
+	  <li>
+	    <a href="about.html">About</a>
+	  </li>
+	  <li>
+	    <a href="contact.html">Contact</a>
+	  </li>
+	</ul>
+
+	<!-- Section: Event Panels -->
+	<section id="search eventList" class="section section-event">
+		<div class="container">
+			<!-- <div id="eventList"> -->
+				<div class="row">
+					<div class="col s12 m6">
+						<div class="eventList card-panel center">
+							<h2>{{event.title}}</h2>
+						</div>
+					</div>
+				</div>
+			<!-- </div> -->
+		</div>
+	</section>
+
+
+	<!--JavaScript at end of body for optimized loading-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+	<!-- bring in jQuery before materialize -->
+	<script type="text/javascript" src="materialize.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
