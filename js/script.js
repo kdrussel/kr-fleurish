@@ -1,4 +1,5 @@
-var URL = 'http://localhost:3000';
+// var URL = 'http://localhost:3000';
+var URL = 'nolafleurish.herokuapp.com';
 
 $(document).ready(function () {
   // Init sidenav
